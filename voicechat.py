@@ -3,8 +3,8 @@ import telegram
 import openai
 from moviepy.editor import AudioFileClip
 
-openai.api_key = "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"
-TELEGRAM_API_TOKEN = "6918262597:AAFw0EXE2-_8BHTTXpyT2VLxp2HK3PzvZ-8"
+openai.api_key = ""
+TELEGRAM_API_TOKEN = ""
 
 messages = [{"role": "system", "content": "You are EleenAI, a Creative AI Assistant bot who is always concise and creative in its answers."}]
 
