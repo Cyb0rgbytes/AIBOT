@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 
 # Telegram bot token
-TELEGRAM_BOT_TOKEN = "6918262597:AAFw0EXE2-_8BHTTXpyT2VLxp2HK3PzvZ-8"
+TELEGRAM_BOT_TOKEN = ""
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Initialize Telegram bot
 bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
